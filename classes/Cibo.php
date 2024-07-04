@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__. '/Product.php';
 class Cibo extends Product{
     private $weight;
     private $calories;
@@ -13,7 +13,7 @@ class Cibo extends Product{
         
         
     }
-    
+
     public function getWeight(){
         return $this -> weight;
     }
