@@ -14,7 +14,7 @@ class Product{
         $this->brand = $brand;
         $this->price = $price;
         $this->imageUrl = $imageUrl;
-        $this->$isAvailable = $isAvailable;
+        $this->isAvailable = $isAvailable;
         $this->categiory = $categiory;
     }
 

@@ -9,7 +9,7 @@ class Cibo extends Product{
         parent::__construct ($name, $brand, $price, $imageUrl, $isAvailable, $categiory);
         $this -> weight = $weight;
         $this -> calories = $calories;
-        $this -> $ingredients = $ingredients;
+        $this -> ingredients = $ingredients;
         
         
     }

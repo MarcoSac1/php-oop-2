@@ -14,7 +14,7 @@
         <ul>
             <?php foreach($products as $Product) {?>
             <li>
-                <?php echo $product -> getName() ?>
+                <?php echo $Product -> getName() ?>
             </li>
             <?php }?>
         </ul>
