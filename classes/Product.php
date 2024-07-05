@@ -7,15 +7,15 @@ class Product{
     private $price;
     private $imageUrl;
     private $isAvailable;
-    private $categiory;
+    private $category;
 
-    public function __construct($name, $brand, $price, $imageUrl, $isAvailable,Category $categiory){
+    public function __construct($name, $brand, $price, $imageUrl, $isAvailable,Category $category){
         $this->name = $name;
         $this->brand = $brand;
         $this->price = $price;
         $this->imageUrl = $imageUrl;
         $this->isAvailable = $isAvailable;
-        $this->categiory = $categiory;
+        $this->category = $category;
     }
 
     public function getName(){
@@ -39,7 +39,7 @@ class Product{
     }
 
     public function getCategory(){
-        return $this-> categiory;
+        return $this-> category;
     }
 
 }

@@ -14,15 +14,15 @@ $categories = [
 ];
 
 $products = [
-    new Cibo('Mini Adult', 'Royal Canin', 15.50, 'https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg', true, $categories['cane'], '8000', '1000', 'Pecora' ),
+    new Cibo('Mini Adult', 'Royal Canin', '15.50', 'https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg', true, $categories['cane'], '8000', '1000', 'Pecora' ),
 
-    new Cibo('Holistic Maintenance', 'Almo Nature ', 20.50, 'https://arcaplanet.vtexassets.com/arquivos/ids/300514/Almo-Nature-Holistic-Maintenance-Medium-Large-Tonno-e-Riso-10118806.jpg', true, $categories['cane'], '18000', '500', 'Tonno e Riso' ),
+    new Cibo('Holistic Maintenance', 'Almo Nature ', '20.50', 'https://arcaplanet.vtexassets.com/arquivos/ids/300514/Almo-Nature-Holistic-Maintenance-Medium-Large-Tonno-e-Riso-10118806.jpg', true, $categories['cane'], '18000', '500', 'Tonno e Riso' ),
 
-    new Cibo('Cat Daily', 'Almo Nature ', 3.50, 'https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg', true, $categories['gatto'], '500', '30', 'Pesce' ),
+    new Cibo('Cat Daily', 'Almo Nature ', '7.50', 'https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg', true, $categories['gatto'], '500', '30', 'Pesce' ),
 
-    new Cibo('Mangime per Pesci Guppy in Fiocchi', 'Tetra', 5, 'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg', true, $categories['pesci'], '50', '10', 'pane' ),
+    new Cibo('Mangime per Pesci Guppy in Fiocchi', 'Tetra', '5', 'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg', true, $categories['pesci'], '50', '10', 'pane' ),
 
-    new Accessori('Voliera in Legno', 'wilma','1200','https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', false, $categories['uccelli'], 'media','gabbia per uccelli'),
+    new Accessori('Voliera in Legno', 'wilma','1.200','https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', false, $categories['uccelli'], 'media','gabbia per uccelli'),
 
     new Accessori('Cartucce Filtranti per Filtro', 'EasyCrystal','6.99','https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', true, $categories['pesci'], 'small','filtri per acquario'),
 
